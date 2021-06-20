@@ -1,0 +1,5 @@
+SEO
+1 - Agregué keywords a cada página de mi proyecto.
+2 - Agregue descripción a cada página de mi proyecto.
+3 - Organicé todos los encabezados de las páginas con un "h1".
+4 - Agregué los titulos correspondientes a cada página.
