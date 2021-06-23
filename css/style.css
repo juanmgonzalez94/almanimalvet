@@ -74,7 +74,7 @@ footer {
   box-sizing: inherit;
   margin: 50px; }
 
-.formnInline {
+.formInline {
   display: flex;
   justify-content: space-between;
   padding: 100px; }
