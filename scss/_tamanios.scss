@@ -1,0 +1,20 @@
+$tamanioBody: 16px;
+$sizeTitulo: 20px;
+$sizeTexto: 15px;
+$estiloTexto: 25px;
+
+body{
+    font-size: $tamanioBody
+}
+
+.estiloTitulo{
+    font-size: $sizeTitulo;
+}
+
+.estiloTexto{
+    font-size: $sizeTexto;
+}
+
+.styleText{
+    font-size: $estiloTexto;
+}

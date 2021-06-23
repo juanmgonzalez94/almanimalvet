@@ -1,5 +1,4 @@
 $flex: flex;
-$tamanioBody: 16px;
 $inline: inline-block;
 $heightLogo: 200px;
 $heightCarousel: 550px;
@@ -7,8 +6,9 @@ $paddingFooter: 30px;
 $marginFooter: 10px;
 $borderFooter: solid;
 $centro: center;
+$padContainer: 200px;
+$padSection: 20px;
 $cover: cover;
-$sizeTitulo: 20px;
 $paddingHeader: 10px;
 $marginTitulo: 30px 5px;
 $paddingTitulo: 10px;
@@ -36,3 +36,116 @@ $izquierdaDatos: 100px;
 $derechaDatos: 1000px;
 $padEnviar: 30px;
 $espacioEnviar: space-around;
+
+
+.logo{
+    display: $flex;
+    justify-content: $centro;
+    height: $heightLogo;
+}
+
+.footer{
+    padding: $paddingFooter;
+    margin: $marginFooter;
+    border-style: $borderFooter;
+}
+
+.titulo{
+    display: $flex;
+    justify-content: $centro;
+}
+
+.container{
+    top: $padContainer;
+}
+
+.modifSection{
+    padding: $padSection;
+}
+
+.carousel-item{
+    height: $heightCarousel;
+    background-position: $centro $centro;
+    background-size: $cover;
+}
+
+.estiloTitulo{
+    padding: $paddingTitulo;
+    margin: $marginTitulo;
+}
+
+.styleHeader{
+    padding: $paddingHeader;
+}
+
+.logoFooter{
+    display: $flex;
+    justify-content: $derecha;
+    height: $heightFLogo;
+    padding-left: $leftLogo;
+}
+
+.redesFlex{
+    display: $flex;
+    justify-content: $centro;
+    padding-top: $topRedes;
+}
+
+.cajas{
+    padding-top: $topCajas;
+    padding-bottom: $botCajas;
+    padding-left: $leftCajas;
+    animation-duration: $animCajas;
+    animation-name: aparecer;
+    animation-fill-mode: $animMode;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: $opacidadAnim;
+    }
+    100% {
+        opacity: $opacidadAnim1;
+    }
+}
+
+.transition{
+    transition: $transicion;
+}
+
+.transition:hover{
+    transform: $transHover;
+}
+
+.teldirFlex{
+    display: $inline;
+    padding-left: $paddingTelDir;
+}
+
+.formularios{
+    border-style: $borderFooter;
+    border-radius: $radiusBorder;
+    box-sizing: $sizing;
+    margin: $margenForm;
+}
+
+.formnInline{
+    display: $flex;
+    justify-content: $espacio;
+    padding: $padForm;
+}
+
+.paddingConsulta{
+    padding-right: $derechaConsulta;
+}
+
+.modelDatos{
+    padding-left: $izquierdaDatos;
+    padding-right: $derechaDatos;
+}
+
+.botonEnviar{
+    display: $flex;
+    padding: $padEnviar;
+    justify-content: $espacioEnviar;
+}

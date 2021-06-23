@@ -1,3 +1,117 @@
-
 footer {
   background-color: blueviolet; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 200px; }
+
+.footer {
+  padding: 30px;
+  margin: 10px;
+  border-style: solid; }
+
+.titulo {
+  display: flex;
+  justify-content: center; }
+
+.container {
+  top: 200px; }
+
+.modifSection {
+  padding: 20px; }
+
+.carousel-item {
+  height: 550px;
+  background-position: center center;
+  background-size: cover; }
+
+.estiloTitulo {
+  padding: 10px;
+  margin: 30px 5px; }
+
+.styleHeader {
+  padding: 10px; }
+
+.logoFooter {
+  display: flex;
+  justify-content: right;
+  height: 100px;
+  padding-left: 400px; }
+
+.redesFlex {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px; }
+
+.cajas {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 200px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-fill-mode: backwards; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.transition {
+  transition: all 2s; }
+
+.transition:hover {
+  transform: translateY(-20px); }
+
+.teldirFlex {
+  display: inline-block;
+  padding-left: 300px; }
+
+.formularios {
+  border-style: solid;
+  border-radius: 20px;
+  box-sizing: inherit;
+  margin: 50px; }
+
+.formnInline {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px; }
+
+.paddingConsulta {
+  padding-right: 300px; }
+
+.modelDatos {
+  padding-left: 100px;
+  padding-right: 1000px; }
+
+.botonEnviar {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around; }
+
+body {
+  font-size: 16px; }
+
+.estiloTitulo {
+  font-size: 20px; }
+
+.estiloTexto {
+  font-size: 15px; }
+
+.styleText {
+  font-size: 25px; }
+
+.estiloTitulo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique; }
+
+.estiloTexto {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.styleText {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.styleFooter {
+  font-family: fantasy; }

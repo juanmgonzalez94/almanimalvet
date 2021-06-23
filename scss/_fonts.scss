@@ -1,0 +1,21 @@
+$fontTitulo: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$fontEstilo: oblique;
+$fontTexto: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$fontFooter: fantasy;
+
+.estiloTitulo{
+    font-family: $fontTitulo;
+    font-style: $fontEstilo;
+}
+
+.estiloTexto{
+    font-family: $fontTexto;
+}
+
+.styleText{
+    font-family: $fontTitulo;
+}
+
+.styleFooter{
+    font-family: $fontFooter;
+}
