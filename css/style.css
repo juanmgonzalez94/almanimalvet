@@ -52,6 +52,11 @@ footer {
   animation-name: aparecer;
   animation-fill-mode: backwards; }
 
+.aparecer {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-fill-mode: backwards; }
+
 @keyframes aparecer {
   0% {
     opacity: 0; }
