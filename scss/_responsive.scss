@@ -36,7 +36,10 @@ $izquierdaDatos: 100px;
 $derechaDatos: 1000px;
 $padEnviar: 30px;
 $espacioEnviar: space-around;
-
+$padFoot: 70px;
+$flexEnd: flex-end;
+$evenly: space-evenly;
+$padQ: 110px;
 
 .logo{
     display: $flex;
@@ -158,9 +161,33 @@ footer{
     justify-content: $espacioEnviar;
 }
 
-@media only screen and (min-width: 768px) {
-    .titulo{
-        padding-left: $heightFLogo
+@media only screen and (max-width: 768px) {
+      .mediaQ {
+       padding-left: $padQ; }
+      .redesFlex{
+        display: $flex;
+        justify-content: $espacio;
+        padding-right: $padFoot;
+        
+      } 
+      
+      .flexF{
+        margin-left: $padSection;
+      }
+      .flexR{
+        margin-left: $marginFooter;
+      }
+      .logoFooter{
+        display: $flex;
+        justify-content: $flexEnd;
+        padding-right: $heightLogo;
+        padding-top: $marginFooter
+      }
+      
+      
+      .teldirFlex{
+        padding-left: $padSection;
+        display: $flex;
+        justify-content: $evenly;
+      }
     }
-
-}
