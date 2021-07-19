@@ -96,6 +96,8 @@ footer {
   padding: 30px;
   justify-content: space-around; }
 
+
+
 body {
   font-size: 16px; }
 
@@ -120,3 +122,34 @@ body {
 
 .styleFooter {
   font-family: fantasy; }
+
+  @media only screen and (max-width: 768px) {
+    .mediaQ {
+      padding-left: 110px; }
+      .redesFlex{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 70px;
+        
+      } 
+      
+      .flexF{
+        margin-left: 20px;
+      }
+      .flexR{
+        margin-left: 10px;
+      }
+      .logoFooter{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 200px;
+        padding-top: 10px
+      }
+      
+      
+      .teldirFlex{
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
